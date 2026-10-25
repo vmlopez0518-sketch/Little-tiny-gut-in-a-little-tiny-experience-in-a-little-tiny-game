@@ -14,6 +14,8 @@
 [ext_resource type="Texture2D" uid="uid://0ykatekvj0w" path="res://image-removebg-preview (9).png" id="12_bcos8"]
 [ext_resource type="Texture2D" uid="uid://dfq4tj08o2yvl" path="res://image-removebg-preview (10).png" id="13_cmsyx"]
 [ext_resource type="Script" uid="uid://t7wqkb35xv8o" path="res://sprite_2d_3.gd" id="14_feppd"]
+[ext_resource type="Texture2D" uid="uid://c4jinnfrpjr8i" path="res://adadada.png" id="15_cmsyx"]
+[ext_resource type="Script" uid="uid://d0h686k3frdew" path="res://sprite_2d_4.gd" id="16_feppd"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wu83k"]
 size = Vector2(129, 236)
@@ -4693,7 +4695,7 @@ size = Vector2(195.99994, 314)
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=380599119]
 z_index = 100
-position = Vector2(-124, 228)
+position = Vector2(-168, 404)
 script = ExtResource("1_j2q8x")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=1771540645]
@@ -4789,3 +4791,10 @@ position = Vector2(-1830, 142)
 scale = Vector2(0.5764106, 0.61205494)
 texture = ExtResource("13_cmsyx")
 script = ExtResource("14_feppd")
+
+[node name="Sprite2D4" type="Sprite2D" parent="." unique_id=2111481226]
+z_index = 4096
+position = Vector2(-156.06255, 415.9557)
+scale = Vector2(2.5034173, 2.7883182)
+texture = ExtResource("15_cmsyx")
+script = ExtResource("16_feppd")

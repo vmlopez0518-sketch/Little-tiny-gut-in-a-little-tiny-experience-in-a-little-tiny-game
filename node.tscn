@@ -16,6 +16,7 @@
 [ext_resource type="Script" uid="uid://t7wqkb35xv8o" path="res://sprite_2d_3.gd" id="14_feppd"]
 [ext_resource type="Texture2D" uid="uid://c4jinnfrpjr8i" path="res://adadada.png" id="15_cmsyx"]
 [ext_resource type="Script" uid="uid://d0h686k3frdew" path="res://sprite_2d_4.gd" id="16_feppd"]
+[ext_resource type="Texture2D" uid="uid://g4ex1c013bjo" path="res://pngtree-brown-wooden-texture-polished-vector-background-image_306870.jpg" id="17_aeaoo"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wu83k"]
 size = Vector2(129, 236)
@@ -4798,3 +4799,9 @@ position = Vector2(-156.06255, 415.9557)
 scale = Vector2(2.5034173, 2.7883182)
 texture = ExtResource("15_cmsyx")
 script = ExtResource("16_feppd")
+
+[node name="Sprite2D5" type="Sprite2D" parent="." unique_id=701372727]
+z_index = -4096
+position = Vector2(-679.7499, 336.00003)
+scale = Vector2(5.062162, 4.1538463)
+texture = ExtResource("17_aeaoo")
